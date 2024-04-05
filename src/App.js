@@ -16,7 +16,7 @@ import {
 
 const style = {
   bg: `min-h-screen w-screen p-4 bg-gradient-to-r from-[#001489] to-[#001489]`,
-  container: `bg-slate-100 max-w-[500px] w-full m-auto rounded-md shadow-xl p-4`,
+  container: `bg-slate-100 max-w-[500px] w-full m-auto  shadow-xl p-4`,
   heading: `text-3xl font-bold text-center `,
   form: `flex justify-between`,
   input: `border p-2 w-full text-xl`,
@@ -75,10 +75,10 @@ function App() {
 
   return (
     <div>
-      <img src={pic3} alt="Description of the image" style={{ display: 'block', margin: 'auto', width: '30%', height: 'auto' }} />
+      <img src={pic3}  style={{ display: 'block', margin: 'auto', width: '30%', height: 'auto' }} />
     <div className={style.bg}>
       <div className={style.container} style={style.customFont}>
-        <h3 className={style.heading}>YOUR MOVIE WATCH LIST</h3>
+        <h3 className={style.heading}>YOUR MOVIE WATCH LIST IS HERE</h3>
         <form onSubmit={createTodo} className={`${style.form} ${style.formColor}`}>
           <input
             value={input}
@@ -110,7 +110,7 @@ function App() {
       <div>
       <img
   src={pic4}
-  alt="Description of the image"
+  
   style={{ display: 'block', margin: 'auto', width: '60%', height: 'auto' }}
 />
 
